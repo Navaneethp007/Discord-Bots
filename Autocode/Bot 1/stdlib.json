@@ -1,0 +1,25 @@
+{
+  "name": "navaneethprabha/boting",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/ping.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ping"
+      }
+    },
+    "functions/events/discord/message/create/prefix/warn.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!warn"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    }
+  }
+}

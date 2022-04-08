@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "NavaneethPrabha",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
